@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PenguinFashion</title>
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .primary-font {
+        font-family: "Bebas Neue", sans-serif;
+      }
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-[#FFFBF0]">
+      <nav class="flex items-center justify-between container pt-10 w-11/12 lg:w-full ">
+        <div class="flex justify-center items-center">
+         <img src="./assets/icons/penguin.svg" alt="logo">
+         <p class="text-[#A4BC46] font-bold text-base md:text-4xl cursor-pointer">Penguin <span class="text-[#363958]">Fashion</span></p>
+        </div>
+        <ul class="md:flex gap-16 text-[#3C3C3C] font-medium tracking-wider hidden">
+          <li><a href="#">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+        <img class="md:hidden" src="./assets/icons/menu.svg" alt="Menu">
+      </nav>
+      <section class="container flex md:flex-row flex-col  justify-between items-center mb-10 w-11/12 lg:w-full ">
+        <div>
+          <h1 class="text-[#FABE4C] text-[40px] lg:text-[80px] font-medium uppercase">Be the Penguins <br> <span class="text-[#363958] text-[40px] lg:text-[80px]font-medium uppercase">of Winter</span></h1>
+          <p class="text-[#3E3E3E] font-medium text-base">Get exclusive jacket for men and women with a discount price.</p>
+          <button class="p-5 flex bg-black bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl mt-5">
+            <img src="./assets/icons/cart.svg" alt="cart" /> 
+            <p class="text-base font-semibold text-slate-100	">Buy Now</p>
+          </button>
+        </div>
+        <div>
+          <img class="mb-14" src="./assets/images/model.png" alt="Model">
+        </div>
+      </section>
+    </header>
+    <main></main>
+  </body>
+</html>
